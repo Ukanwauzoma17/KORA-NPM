@@ -1,0 +1,22 @@
+{
+  "name": "kora-npm-typescript",
+  "version": "1.0.0",
+  "description": "An sdk where backend developers can use to integrate kora's Api for payins,payouts and banks for nigeria(for now)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "repository": {"url": "https://github.com/Ukanwauzoma17/KORA-NPM"},
+
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "uzoma-ukanwa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "tsup": "^8.1.2",
+    "typescript": "^5.5.3"
+  }
+}
